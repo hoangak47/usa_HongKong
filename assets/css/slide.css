@@ -1,0 +1,15 @@
+/* slideshow */
+.slideshow {
+	position: relative;
+	padding-top: 10px;
+}
+.left-slide{width: 72.5%;}
+.right-slide{width: 26.6666666667%;}
+.slideqc-item {
+    margin-bottom: 10px;
+}
+
+.slick-slideqc {
+    max-height: 430px;
+    overflow: hidden;
+}

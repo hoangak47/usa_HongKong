@@ -1,0 +1,24 @@
+{!! cssminify()->set('css/animate.min.css');
+    cssminify()->set('css/style-tailwind.css');
+    cssminify()->set('bootstrap/bootstrap.css');
+    cssminify()->set('fontawesome640/all.css');
+    cssminify()->set('owlcarousel2/owl.carousel.css');
+    cssminify()->set('owlcarousel2/owl.theme.default.css');
+    cssminify()->set('holdon/HoldOn.css');
+    cssminify()->set('holdon/HoldOn-style.css');
+    cssminify()->set('confirm/confirm.css');
+    cssminify()->set('simplenotify/simple-notify.css');
+    cssminify()->set('fancybox5/fancybox.css');
+    cssminify()->set('slick/slick.css');
+    cssminify()->set('slick/slick-theme.css');
+    cssminify()->set('slick/slick-style.css');
+    cssminify()->set('photobox/photobox.css');
+    cssminify()->set('css/header.css');
+    cssminify()->set('css/navigation.css');
+    cssminify()->set('css/slide.css');
+    cssminify()->set('css/footer.css');
+    cssminify()->set('css/style.css');
+    cssminify()->set('css/media.css');
+    echo cssminify()->get();
+!!}
+@stack('styles')

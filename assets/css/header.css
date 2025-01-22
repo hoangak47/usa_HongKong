@@ -1,0 +1,172 @@
+/*   Header   */
+.header {
+}
+
+.cart-head {
+	border: 1px solid #fff;
+	padding: 10px;
+	border-radius: 5px;
+	position: relative;
+	color: #fff;
+}
+.cart-head:hover {
+	color: #fed402;
+}
+.cart-head i {
+	font-size: 20px;
+}
+.cart-head .count-cart {
+	position: absolute;
+	z-index: 999;
+	color: #fff;
+	background: #f00;
+	border-radius: 50%;
+	top: -10px;
+	right: 20px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+.menu-head {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu-head a {
+	color: #fff;
+}
+.menu-head a:hover {
+	color: #fed402;
+}
+.line-head {
+	background-color: #72b2fd;
+	height: 32px;
+	width: 1px;
+}
+
+.header-bottom .wrap-content {
+    padding: 2px 0
+}
+
+a.cart-header {
+    position: relative
+}
+
+a.cart-header span {
+    position: absolute;
+    top: -2px;
+    right: 4px;
+    color: #fff
+}
+a.cart-header {
+	position: relative;
+}
+a.cart-header span {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: #fff;
+	font-size: 11px;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+	border-radius: 50%;
+} 
+.header-top {background: #29ABE1;}
+.logo {
+    max-width: 208px;
+    position: relative;
+    background: #fff;
+    margin-top: -49px;
+    height: 138px;
+}
+
+.logo:before {
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 0;
+    width: calc((100vw - 1200px)/2);
+    height: 142px;
+    background: #fff;
+}
+
+.logo:after {
+    content: '';
+    position: absolute;
+    background: url(../images/i1.png) no-repeat;
+    width: 43px;
+    height: 142px;
+    left: 100%;
+    top: 0;
+    filter: drop-shadow(4px 0px 0px rgba(0, 0, 0, 0.05));
+}
+
+.header-top .cont-header-top {
+    margin-left: 285px;
+}
+.header-bottom {background: #fff;padding: 5px 0;}
+.social-header {padding: 0;margin: 0;}
+.slogan{width:50%;line-height: 1;font-size: 15px;text-transform: uppercase;font-weight: 800;color: #fff;}
+.left-header {
+    width: calc(17.3333333333% + 42px);
+}
+.right-header {
+    width: 77.9166666667%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hotline-header {
+    max-width: 190px;
+    width: 100%;
+    background: url(../images/icon-hotline.png) no-repeat top center;
+    height: 48px;
+    position: relative;
+}
+.address-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 320px;
+}
+
+span.icon-header {
+    width: 55px;
+}
+
+span.info-header {
+    width: calc(100% - 55px);
+    padding-left: 10px;
+    font-size: 15px;
+    color: #333;
+}
+
+.email-header {
+    max-width: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.span-title-header {
+    position: absolute;
+    font-weight: 800;
+    font-size: 13px;
+    color: #fff;
+    top: 2px;
+    left: 75px;
+}
+
+.numb-hotline {
+    position: absolute;
+    background: var(--gr, linear-gradient(90deg, #0B773E 0%, #62AD1B 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 20px;
+    bottom: 0;
+    right: 0;
+    line-height: 1;
+}
